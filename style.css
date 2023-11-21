@@ -1,37 +1,56 @@
-body, html {
+body,
+html {
   height: 100%;
-  }
-  
-  #home {
-    background-image: url("./images/bg_header.jpg");
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-position: center;
-  }
-  
-.logo-your{
-    margin: 0px;
-    width: 140px;
-    height: auto;
 }
 
-.logo{
+#home {
+  background-image: url("./images/bg_header.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-your {
+  margin: 0px;
+  width: 140px;
+  height: auto;
+}
+
+.logo {
   margin-left: 1px;
   margin-top: 6px;
 }
 
-.gros-titre{
+.gros-titre {
   font-size: 80px;
 }
 
-.petit-titre{
+.petit-titre {
   font-size: 50px;
 }
 
 #about {
-
   background-image: url(./images/bg_nuage.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-  
+.velo {
+  height: 65vh;
+  width: auto;
+}
+
+.borderAbout {
+  border: 1px;
+}
+
+#history {
+  background-image: url(./images/bg_appareil_photo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#photos {
+  background-color: gray;
+}
+
