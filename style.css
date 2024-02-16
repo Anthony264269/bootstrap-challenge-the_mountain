@@ -1,25 +1,32 @@
-body,
-html {
-  height: 100%;
-}
-
 #home {
   background-image: url("./images/bg_header.jpg");
+  width: 100vw;
   height: 100vh;
   background-size: cover;
-  background-position: center;
+  
+}
+.navbar-brand div{
+  width: 150px;
 }
 
-.logo-your {
-  margin: 0px;
-  width: 140px;
-  height: auto;
+.navbar-brand p{
+  margin-bottom: 0;
+  font-size: 30px;
+  padding-top: 3px;
+}
+.border-about{
+  border: 1px solid white;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
-.logo {
-  margin-left: 1px;
-  margin-top: 6px;
-}
+
+
 
 .gros-titre {
   font-size: 80px;
@@ -53,4 +60,7 @@ html {
 #photos {
   background-color: gray;
 }
+
+
+
 
